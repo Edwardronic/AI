@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Echarts</title>
+    <script type="text/javascript" src="https://pyecharts.github.io/assets/js/echarts.min.js"></script>
+</head>
+<body>
+    <div id="8b11fab5df7d464e961dff533ae6f010" style="width:800px;height:400px;"></div>
+    <script type="text/javascript">
+
+var myChart_8b11fab5df7d464e961dff533ae6f010 = echarts.init(document.getElementById('8b11fab5df7d464e961dff533ae6f010'), 'light', {renderer: 'canvas'});
+
+var option_8b11fab5df7d464e961dff533ae6f010 = {
+    "title": [
+        {
+            "text": "Snap Ratio",
+            "left": "auto",
+            "top": "auto",
+            "textStyle": {
+                "fontSize": 18
+            },
+            "subtextStyle": {
+                "fontSize": 12
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "left": "95%",
+        "top": "center",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "save as image"
+            },
+            "restore": {
+                "show": true,
+                "title": "restore"
+            },
+            "dataView": {
+                "show": true,
+                "title": "data view"
+            }
+        }
+    },
+    "series_id": 7409590,
+    "tooltip": {
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "formatter": "{a} <br/>{b} : {c}%",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "backgroundColor": "rgba(50,50,50,0.7)",
+        "borderColor": "#333",
+        "borderWidth": 0
+    },
+    "series": [
+        {
+            "type": "gauge",
+            "detail": {
+                "formatter": "{value}%"
+            },
+            "name": "FOOD_CA",
+            "min": 0,
+            "max": 100,
+            "startAngle": 225,
+            "endAngle": -45,
+            "data": [
+                {
+                    "value": 51.66,
+                    "name": "FOOD_CA"
+                }
+            ]
+        },
+        {
+            "type": "gauge",
+            "detail": {
+                "formatter": "{value}%"
+            },
+            "name": "FOOD_CA",
+            "min": 0,
+            "max": 100,
+            "startAngle": 225,
+            "endAngle": -45,
+            "data": [
+                {
+                    "value": 50.66,
+                    "name": "FOOD_CA"
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "FOOD_CA",
+                "FOOD_CA"
+            ],
+            "selectedMode": "multiple",
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal",
+            "textStyle": {
+                "fontSize": 12
+            }
+        }
+    ],
+    "animation": true,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597",
+        "#f6f5ec"
+    ]
+};
+myChart_8b11fab5df7d464e961dff533ae6f010.setOption(option_8b11fab5df7d464e961dff533ae6f010);
+
+</script>
+</body>
+</html>
